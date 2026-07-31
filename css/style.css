@@ -382,7 +382,7 @@ button:focus{outline:0;}
 .Contact_bg .col-sm-3:before{content:"";width:1px;height:100%;top:0;position:absolute;right:10px;background:#f0f0f0;}
 .Contact_bg .col-sm-3:last-child:before{display:none;}
 /* iPhone5/SE */
-	@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+	@media only screen and (min-width: 320px) and (max-width: 767px) {
 	.phone_menu .dropdown .nav-link {color:#333;float: right;padding:0 15px;height: 60px;    line-height: 60px;}
 	.maket_header,.maket_header_01{padding-bottom:40px;padding-top:40px;}
     .row.m-0{margin-left:-7px!important;margin-right:-7px!important;}	
@@ -420,6 +420,8 @@ button:focus{outline:0;}
 	.index_platforms_img .img3{width:50%;right:0;top:-30px;}
 	.index_platforms_img{margin-top: 30px;  margin-bottom: 0px;}
 	.index_platforms{min-height:500px;}
+	.index_04_bg2{flex-direction:column;align-items:flex-start;gap:20px;padding:28px 24px;}
+	.index_04_bg2 .banner_btn{width:100%;}
 	}
 
 
