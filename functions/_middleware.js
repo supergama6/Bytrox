@@ -1,5 +1,4 @@
 const YETI_USER_AGENT = /\byeti\b/i;
-const YETI_ROBOTS_META = '<meta name="robots" content="noindex,nofollow">';
 
 function isYeti(request) {
   return YETI_USER_AGENT.test(request.headers.get("user-agent") || "");
@@ -34,9 +33,9 @@ export async function onRequest(context) {
   });
 
   return new HTMLRewriter()
-    .on("head", {
+    .on('meta[name="robots"]', {
       element(element) {
-        element.prepend(YETI_ROBOTS_META, { html: true });
+        element.setAttribute("content", "noindex,nofollow");
       },
     })
     .transform(responseForRewrite);

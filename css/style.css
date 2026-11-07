@@ -18,31 +18,22 @@ img{ max-width: 100%;}
 }
 @font-face {
   font-family: 'Arimo';
-  src: url('/skin/2023/font/Arimo-Regular.ttf');
+  src: url('/font/Arimo-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Arimo-Bold';
-  src: url('/skin/2023/font/Arimo-Bold.ttf');
-}
-
-
-
-@font-face {
-  font-family: 'iconfont';
-  src: url('/skin/2023/font/iconfont.eot');
-  src: url('/skin/2023/font/iconfont.eot?#iefix') format('embedded-opentype'),
-      url('/skin/2023/font/iconfont.woff2') format('woff2'),
-      url('/skin/2023/font/iconfont.woff') format('woff'),
-      url('/skin/2023/font/iconfont.ttf') format('truetype'),
-      url('/skin/2023/font/iconfont.svg#iconfont') format('svg');
+  src: url('/font/Arimo-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
 }
 .top_icon .dropdown-toggle:after {display:none; vertical-align: inherit;  border-top: 0;  border-right: 0;    border-bottom: 0;    border-left: 0;    content: "\f107";    font-family: 'FontAwesome';}
 .top_icon .dropdown-toggle:hover:after{content:"\f106";}
 .top_icon{display:flex;float:right;    top: 8px;align-items:center;position:relative;padding-left:32px;margin-left:32px;}
 .top_icon:after{transition: all 0.5s ease-in-out;height:30px;width:1px;background:#EBEBEB;  content:'';display:block;position:absolute;top:27px;left:0;}
-.top_service{position:relative;}
-.top_service:after{width:8px;height:8px;background:#F34459;border-radius:5px;content:'';display:block;position:absolute;top:34%;right:-1px;}
-
 .light-theme .top_icon:after{background:#41434A;    top: 27px;}
 .light-theme.mini .top_icon:after{background:#EBEBEB;    top: 15px;}
 .mini .top_icon:after{background:#EBEBEB;    top: 15px;}
@@ -89,28 +80,6 @@ img{ max-width: 100%;}
 .btn-light3:hover{opacity:0.85;color:#fff;}
 
 .lost .btn-dark{    background: #1E202B; border-color: #1E202B;color:#20CC98;font-size:16px;padding:8px 26px;border-radius:50px;    top: 0px;    position: relative;}
-
-
-.top_service{background:url(../images/header/top-service.svg) no-repeat;display: block; width: 24px; height: 80px; background-size: 100%;
-    background-position: center;   text-align: center;     margin-left: 24px; }
-.top_service:hover{background:url(../images/header/top-service-hover2.svg) no-repeat center; height: 80px;}
-.language_img{background:url(../images/header/top-language.svg) no-repeat;display: block; width: 24px; height: 80px; background-size: 100%;
-    background-position: center;   text-align: center;     margin-left: 24px; }
-.language_img:hover{background:url(../images/header/top-language-hover2.svg) no-repeat center; height: 80px;}
-.download_img{;background:url(../images/header/top-download.svg) no-repeat;display: block; width: 24px; height: 80px; background-size: 100%;
-    background-position: center;   text-align: center;     margin-left: 0px; }
-.download_img:hover{background:url(../images/header/top-download-hover2.svg) no-repeat center; height: 80px;}
-
-.light-theme .download_img,.light-theme .top_service,.light-theme .language_img{height: 80px;}
-.light-theme.mini .download_img,.light-theme.mini .top_service,.light-theme.mini .language_img,
-.mini .download_img,.mini .top_service,.mini .language_img{height: 60px;}
-
-.light-theme .top_service:hover{background:url(../images/header/top-service-hover.svg) no-repeat center;}
-.light-theme.mini .top_service:hover,.mini .top_service:hover {background:url(../images/header/top-service-hover2.svg) no-repeat center;}
-.light-theme .language_img:hover{background:url(../images/header/top-language-hover.svg) no-repeat center;}
-.light-theme.mini .language_img:hover,.mini .language_img:hover {background:url(../images/header/top-language-hover2.svg) no-repeat center;}
-.light-theme .download_img:hover{background:url(../images/header/top-download-hover.svg) no-repeat center;}
-.light-theme.mini .download_img:hover,.mini .download_img:hover {background:url(../images/header/top-download-hover2.svg) no-repeat center;}
 
 
 .dropdown a.nav-link,.light-theme.header.mini .dropdown a.nav-link{color:#333;padding-left:12px;padding-right:12px;}
