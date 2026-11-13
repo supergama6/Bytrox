@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="BGL">
+  <rect width="64" height="64" rx="6" fill="#0d171d"/>
+  <rect width="7" height="64" fill="#087f69"/>
+  <text x="35" y="38" fill="#ffffff" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">BGL</text>
+</svg>
